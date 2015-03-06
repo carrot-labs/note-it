@@ -1,0 +1,13 @@
+{
+  "name": "note-it",
+  "version": "0.0.1",
+  "description": "An easy-to-use application to take notes",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Guilherme Rv Coelho <guilherme@cenoura.co>",
+  "license": "MIT",
+  "homepage": "https://github.com/cenouraco/note-it"
+}
