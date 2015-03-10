@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var debug = require('debug');
+var app = require('../app');
+
+var server = app.listen(app.get('port'), function() {
+  // console.log('Express listening on port ' + app.get('port'));
+  debug('Express listening on port ' + app.get('port'));
+});
